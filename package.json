@@ -4,15 +4,12 @@
   "description": "Telegram bot for burning subtitles into videos",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "tsc && tsc-watch --onSuccess \"npm run build:prod\"",
-    "build:prod": "npm run build && tsc --module commonjs --outDir dist --target es5 --sourceMap"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "DevXkirito",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^18.0.6",
     "axios": "^1.7.4",
     "node-telegram-bot-api": "^0.66.0",
     "telegraf": "^4.16.3",
