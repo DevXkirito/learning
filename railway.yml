@@ -1,0 +1,9 @@
+build:
+  command: npm install
+  environment:
+    - NODE_ENV=production
+
+deploy:
+  command: node index.js
+  environment:
+    - NODE_ENV=production
